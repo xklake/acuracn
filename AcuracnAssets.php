@@ -5,15 +5,15 @@
  * Date: 06/09/16
  * Time: 3:40 PM
  */
-namespace frontend\web\template\acura;
+namespace frontend\web\template\acuracn;
 use yii;
 use yii\web\AssetBundle;
 
 
-class AcuraAssets extends AssetBundle
+class AcuracnAssets extends AssetBundle
 {
     public $basePath = '@webroot';
-    public $baseUrl = '/acura/assets';
+    public $baseUrl = '/acuracn/assets';
 
 
     public $css = [

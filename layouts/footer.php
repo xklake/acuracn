@@ -14,7 +14,7 @@
 				<div class="widget">
 					<h5 class="widgetheading">
                         <i class="fa fa-map-marker" aria-hidden="true"></i>
-                        Address
+                        联系地址
                     </h5>
 					<address>
     					<!--strong>Lingua Chinese Translation</strong><br-->
@@ -28,7 +28,7 @@
 				<div class="widget">
 					<h5 class="widgetheading">
                         <i class="fa fa-mobile-phone" aria-hidden="true"></i>
-                        Call Mobile
+                        手机号码
                     </h5>
                     <address>
                         <a href='tel:<?=Yii::$app->setting->get("mobile")?>'><?=Yii::$app->setting->get("mobile")?></a>
@@ -40,7 +40,7 @@
 				<div class="widget">
 					<h5 class="widgetheading">
                         <i class="fa fa-phone" aria-hidden="true"></i>
-                        Call Phone
+                        座机号码
                     </h5>
                     <address>
                         <a href='tel:<?=Yii::$app->setting->get("phone")?>'><?=Yii::$app->setting->get("phone")?></a>
@@ -52,7 +52,7 @@
 				<div class="widget">
 					<h5 class="widgetheading">
                         <i class="fa fa-mobile-phone" aria-hidden="true"></i>
-                        Email
+                        电子邮箱
                     </h5>
                     <address>
                         <a href="mailto:<?=Yii::$app->setting->get('email')?>"><?=Yii::$app->setting->get('email')?></a>
@@ -68,7 +68,16 @@
 				<div class="col-lg-12">
 					<div class="copyright ">
                         <p class="text-center">
-							<span>&copy; Lingua Chinese Translation 2017, all right reserved. Powered By </span><a href="http://chinasoftware.co.uk" target="_blank">chinasoftware</a>
+							<span>
+                                <?php 
+                                    echo(Yii::$app->setting->get('copyright'))
+                                ?>
+                            </span>
+                            <a href="http://chinasoftware.co.uk" target="_blank">
+                                <span style="margin-left:20px;font-size:0.9rem;">
+                                    中软软件提供技术支持
+                                </span>
+                            </a>
 						</p>
 					</div>
 				</div>

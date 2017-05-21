@@ -21,7 +21,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
-                <h2><span class=''>We look forward to hearing from you!</span></h2>
+                <h2><span class=''>我们期待着您的光顾!</span></h2>
             </div>
         </div>
 
@@ -52,7 +52,7 @@
                         <?= Yii::$app->setting->get('address') ?>
                     </a>
                     <br/>
-                    <span style='font-size:1rem;'>（Office visit by appointment only）</span>
+                    <span style='font-size:1rem;'>（公司访问请提前预约）</span>
                 </p>
                 <!--p>
                     <a href='tel:<?= Yii::$app->setting->get('wechat') ?>' class="fa fa-weixin">

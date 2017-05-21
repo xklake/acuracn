@@ -6,7 +6,7 @@
  * Time: 11:42 AM
  */
 
-$this->beginContent('@frontend/web/template/acura/layouts/main.php');
+$this->beginContent('@frontend/web/template/acuracn/layouts/main.php');
 ?>
 
 <section id="blog" class="container">

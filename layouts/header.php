@@ -3,10 +3,16 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12"> 	  
-        <p class="pull-left"><i class="fa fa-globe"></i><span>Lingua Chinese Translation</span></p>
+        <p class="pull-left"><i class="fa fa-globe"></i>
+            <span>
+                <?php 
+                    echo(Yii::$app->setting->get('siteName'));
+                ?>
+            </span>
+        </p>
         <p class="pull-right">
-            <a href="http://cn.lctranslate.co.uk">
-                <img src="/images/china.png">
+            <a href="http://lctranslate.co.uk">
+                <img src="/images/enlish.png">
             </a>
         </p>
       </div>
@@ -32,7 +38,7 @@
             <div class="navbar-collapse collapse ">
                 <ul class="nav navbar-nav">
                     <li class="active">
-                        <a href="<?=Yii::$app->urlManager->getHostInfo().Yii::$app->homeUrl?>">Home</a>
+                        <a href="<?=Yii::$app->urlManager->getHostInfo().Yii::$app->homeUrl?>">首页</a>
                     </li> 
                     
                     <?php foreach(Yii::$app->params['mainMenu'] as $item) {
@@ -59,7 +65,9 @@
                     <?php } ?>
                             
                     <li>
-                        <a href="<?=Yii::$app->urlManager->createAbsoluteUrl(['blog/default/quote'])?>">ONLINE QUOTE</a>
+                        <a href="<?=Yii::$app->urlManager->createAbsoluteUrl(['blog/default/quote'])?>">
+                        在线翻译
+                        </a>
                     </li>                             
                 </ul>
             </div>

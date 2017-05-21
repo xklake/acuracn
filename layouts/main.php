@@ -1,7 +1,7 @@
 <?php
 use yii\helpers\Html;
-use frontend\web\template\acura\AcuraAssets;
-AcuraAssets::register($this);
+use frontend\web\template\acuracn\AcuracnAssets;
+AcuracnAssets::register($this);
 ?>
 
 <?php $this->beginPage() ?>
