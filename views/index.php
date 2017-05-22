@@ -50,7 +50,7 @@
                 </p>
             </div>
             <div class="col-md-2 col-sm-3">
-                <a href="<?=Yii::$app->urlManager->createAbsoluteUrl(['blog/default/catalog', 'id'=>58])?>" class="btn btn-primary">Read More</a>
+                <a href="<?=Yii::$app->urlManager->createAbsoluteUrl(['blog/default/catalog', 'id'=>51])?>" class="btn btn-primary">更多阅读</a>
             </div>
         </div>
     </div>
@@ -61,7 +61,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="aligncenter">
-                    <h2 class="aligncenter">Our Services</h2>
+                    <h2 class="aligncenter">我们的服务</h2>
                     <?php 
                         $serivice_slogan= Yii::$app->getTextBlock('home-trans-slogan');
                         if($serivice_slogan != null)
@@ -78,7 +78,7 @@
             <div class="col-sm-4 info-blocks">
                 <i class="icon-info-blocks fa fa-bell-o"></i>
                 <div class="info-blocks-in">
-                    <h3>Languages we cover</h3>
+                    <h3>覆盖的语言</h3>
                     <p>
                         <?php 
                             $home_service_language= Yii::$app->getTextBlock('home-service-language');
@@ -93,7 +93,7 @@
             <div class="col-sm-4 info-blocks">
                 <i class="icon-info-blocks fa fa-hdd-o"></i>
                 <div class="info-blocks-in">
-                    <h3>Certified Translation</h3>
+                    <h3>认证翻译</h3>
                     <p>
                         <?php 
                             $home_service_certified_t = Yii::$app->getTextBlock('home-service-certified-t');
@@ -109,7 +109,7 @@
             <div class="col-sm-4 info-blocks">
                 <i class="icon-info-blocks fa fa-lightbulb-o"></i>
                 <div class="info-blocks-in">
-                    <h3>Document Translation </h3>
+                    <h3>文档翻译</h3>
                     <p>
                         <?php 
                             $document_translation = Yii::$app->getTextBlock('home-service-document-t');
@@ -127,7 +127,7 @@
             <div class="col-sm-4 info-blocks">
                 <i class="icon-info-blocks fa fa-code"></i>
                 <div class="info-blocks-in">
-                    <h3>Proofreading & Editing</h3>
+                    <h3>校正和编辑</h3>
                     <p>
                         <?php 
                             $proof = Yii::$app->getTextBlock('home-service-proof');
@@ -142,7 +142,7 @@
             <div class="col-sm-4 info-blocks">
                 <i class="icon-info-blocks fa fa-compress"></i>
                 <div class="info-blocks-in">
-                    <h3>Interpretation</h3>
+                    <h3>现场口译</h3>
                     <p>
                         <?php 
                             $Interpretation = Yii::$app->getTextBlock('home-service-interpretation');
@@ -157,7 +157,7 @@
             <div class="col-sm-4 info-blocks">
                 <i class="icon-info-blocks fa fa-html5"></i>
                 <div class="info-blocks-in">
-                    <h3>Transcription</h3>
+                    <h3>转录服务</h3>
                     <p>
                         <?php 
                             $transcription = Yii::$app->getTextBlock('home-service-transcription');
@@ -178,12 +178,12 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="section-title text-center">
-                    <h2>Free Online Quotation</h2>
+                    <h2>免费在线报价</h2>
                     <p>
-                        <a href="<?=Yii::$app->urlManager->createAbsoluteUrl(['blog/default/quote'])?>" class="btn btn-primary">Quote Now</a>
+                        <a href="<?=Yii::$app->urlManager->createAbsoluteUrl(['blog/default/quote'])?>" class="btn btn-primary">现在就询价</a>
                     </p>
                     <h4>
-                        We will try to get back to you with an hour
+                        我们会尽力争取一个小时之内能答复您
                     </h4>
                 </div>
             </div>

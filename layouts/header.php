@@ -66,7 +66,7 @@
                             
                     <li>
                         <a href="<?=Yii::$app->urlManager->createAbsoluteUrl(['blog/default/quote'])?>">
-                        在线翻译
+                        在线报价
                         </a>
                     </li>                             
                 </ul>
